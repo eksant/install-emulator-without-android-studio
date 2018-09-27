@@ -28,9 +28,8 @@ export JAVA_HOME=$(update-alternatives --query javac | sed -n -e 's/Best: *\(.*\
 ```bash
 mkdir android/sdk
 ```
-
-### then download android sdk command line tools only
-### extract and copy tools in android/sdk folder
+then download android sdk command line tools only
+extract and copy tools in android/sdk folder
 
 ### export environment
 ```bash
